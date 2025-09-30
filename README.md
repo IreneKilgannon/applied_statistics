@@ -16,19 +16,17 @@ Add short paragraph about the assessment.
 ## File Overview
 
     applied_statistics
-    ├── problems.ipynb          # All assessment solutions are detailed in this 
-notebook 
+    ├── problems.ipynb          # All assessment solutions are detailed in this notebook 
     ├── README.md               # Main repository overview (this file).
 
 ## Dependencies
 
 All project dependencies are listed in requirements.txt. They can be installed 
-using the following command, as explained in [geeksforgeeks.org](https://www.
-geeksforgeeks.org/python/how-to-install-python-packages-with-requirements-txt/).
+using the following command, as explained in [geeksforgeeks.org](https://www.geeksforgeeks.org/python/how-to-install-python-packages-with-requirements-txt).
+
 
     pip install -r requirements.txt
 
-    
 
 ## Usage
 
