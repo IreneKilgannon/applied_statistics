@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ```
 pip install notebook ipykernel
-pip -m ipykernel install --user --name=venv --display-name="Python (venv)"
+python -m ipykernel install --user --name=venv --display-name="Python (venv)"
 ```
 
 5. __Run the notebook.__
