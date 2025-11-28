@@ -1,12 +1,12 @@
 # Applied Statistics
 
-Author: Irene Kilgannon
+__Author:__ Irene Kilgannon
 
-Student ID: G00220627
+__Student ID:__ G00220627
 
 This repository contains the assessment tasks for the Applied Statistics module, part of the [Higher Diploma in Science in Data Analytics](https://www.atu.ie/courses/higher-diploma-in-science-data-analytics) at [Atlantic Technological University](https://www.atu.ie/).
 
-This module is taught by Ian McLoughlin and the assessment brief and course materials is available [on Github](https://github.com/ianmcloughlin/applied-statistics/tree/main).
+This module is taught by Ian McLoughlin and the assessment brief and course materials is available on [Github](https://github.com/ianmcloughlin/applied-statistics/tree/main).
 
 ## Assessment Overview
 
@@ -48,34 +48,39 @@ git clone https://github.com/IreneKilgannon/applied_statistics.git
 
 Install all the required packages:
 
- ```
+ ```bash
  pip install -r requirements.txt
  ```
 
 ## Usage
 
 1. __Create and activate a virtual environment__ in the ``applied_statistics`` directory:
-```
+```bash
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # macOS/Linux
 ```
 2. __Install dependencies:__
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 3. __Open the notebook (problems.ipynb)__ in Visual Studio Code and select the __venv__ kernel.
 
-4. __If the venv kernel does not appear__, install Jupyter and register the kernel manually:
+   Open command palette → ``Python: Select Interpreter`` →  ``Enter interpreter path``
 
+    Navigate to ``venv`` → ``venv\Scripts\python.exe``
+
+4. __Run the notebook.__
+
+5. __Deactivate the virtual environment__.
+
+When you are finished, you can deactivate the environment:
+
+```bash
+deactivate
 ```
-pip install notebook ipykernel
-python -m ipykernel install --user --name=venv --display-name="Python (venv)"
-```
-
-5. __Run the notebook.__
-
 
 ## Get Help
 
