@@ -4,9 +4,9 @@ __Author:__ Irene Kilgannon
 
 __Student ID:__ G00220627
 
-This repository contains the assessment tasks for the Applied Statistics module, part of the [Higher Diploma in Science in Data Analytics](https://www.atu.ie/courses/higher-diploma-in-science-data-analytics) at [Atlantic Technological University](https://www.atu.ie/).
+This repository contains solutions to the assessment tasks for the Applied Statistics module, part of the [Higher Diploma in Science in Data Analytics](https://www.atu.ie/courses/higher-diploma-in-science-data-analytics) at [Atlantic Technological University](https://www.atu.ie/).
 
-This module is taught by Ian McLoughlin and the assessment brief and course materials is available on [Github](https://github.com/ianmcloughlin/applied-statistics/tree/main).
+This module is taught by Ian McLoughlin, with the assessment brief and course materials available on [GitHub](https://github.com/ianmcloughlin/applied-statistics/tree/main).
 
 ## Assessment Overview
 
@@ -32,7 +32,7 @@ All solutions are documented in [problems.ipynb](https://github.com/IreneKilgann
 
 ## Installation
 
-To run the file, on your local system the following programs download and install:
+To run the notebook, on your local system, download and install:
 1. [Anaconda](https://www.anaconda.com/download) - Python distribution
 2. [Visual Studio Code](https://code.visualstudio.com/download) - Code editor
 3. [git](https://git-scm.com/) - Version control
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 4. __Run the notebook.__
 
-5. __Deactivate the virtual environment:__.
+5. __Deactivate the virtual environment:__
 
 ```bash
 deactivate
