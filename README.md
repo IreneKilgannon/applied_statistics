@@ -32,7 +32,7 @@ All solutions are documented in [problems.ipynb](https://github.com/IreneKilgann
 
 ## Installation
 
-To run the file, on your local system the following programs were downloaded and installed:
+To run the file, on your local system the following programs download and install:
 1. [Anaconda](https://www.anaconda.com/download) - Python distribution
 2. [Visual Studio Code](https://code.visualstudio.com/download) - Code editor
 3. [git](https://git-scm.com/) - Version control
@@ -46,15 +46,14 @@ git clone https://github.com/IreneKilgannon/applied_statistics.git
 
 ## Dependencies
 
-Install all the required packages:
+All dependencies are listed in ``requirements.txt``.
 
- ```bash
- pip install -r requirements.txt
- ```
+They are installed after the virtual environment has been created.
 
 ## Usage
 
 1. __Create and activate a virtual environment__ in the ``applied_statistics`` directory:
+
 ```bash
 python -m venv venv
 venv\Scripts\activate  # Windows
@@ -74,9 +73,7 @@ pip install -r requirements.txt
 
 4. __Run the notebook.__
 
-5. __Deactivate the virtual environment__.
-
-When you are finished, you can deactivate the environment:
+5. __Deactivate the virtual environment:__.
 
 ```bash
 deactivate
