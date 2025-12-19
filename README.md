@@ -21,10 +21,10 @@ The full brief for each problem is available [here](https://github.com/ianmcloug
 
 All solutions are documented in [problems.ipynb](https://github.com/IreneKilgannon/applied_statistics/blob/main/problems.ipynb) in this repository. 
 
-## File Overview
+## Repository Overview
 
     applied_statistics
-    ├── img                     # Images used in the notebook.
+    ├── img/                    # Images used in the notebook.
     ├── .gitignore              # Files and folders ignored by Git.
     ├── README.md               # Repository overview (this file).
     ├── problems.ipynb          # Jupyter notebook containing solutions.
@@ -32,13 +32,13 @@ All solutions are documented in [problems.ipynb](https://github.com/IreneKilgann
 
 ## Installation
 
-To run the notebook, on your local system, download and install:
-1. [Anaconda](https://www.anaconda.com/download) - Python distribution
-2. [Visual Studio Code](https://code.visualstudio.com/download) - Code editor
-3. [git](https://git-scm.com/) - Version control
-4. [Cmder](https://cmder.app/) - Terminal emulator
+To run the notebook download and install:
+1. [Anaconda](https://www.anaconda.com/download) - Python distribution.
+2. [Visual Studio Code](https://code.visualstudio.com/download) - Code editor.
+3. [git](https://git-scm.com/) - Version control.
+4. [Cmder](https://cmder.app/) - Terminal emulator.
 
-Clone this repository:
+Clone the repository:
 
 ```
 git clone https://github.com/IreneKilgannon/applied_statistics.git
