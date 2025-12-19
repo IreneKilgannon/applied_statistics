@@ -76,7 +76,8 @@ python -m ipykernel install --user --name venv --display-name "Python (venv)"
 4. __Open problems.ipynb__ in Visual Studio Code and select the __venv__ kernel.
 
     Upon first use, you may need to set the interpreter:
-   Open command palette → ``Python: Select Interpreter`` →  ``Enter interpreter path``
+
+    Open command palette → ``Python: Select Interpreter`` →  ``Enter interpreter path``
 
     Navigate to your ``venv`` directory: 
     * Windows: ``venv\Scripts\python.exe``
