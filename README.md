@@ -29,6 +29,7 @@ All solutions are documented in [problems.ipynb](https://github.com/IreneKilgann
     ├── README.md               # Repository overview (this file).
     ├── problems.ipynb          # Jupyter notebook containing solutions.
     ├── requirements.txt        # Python dependencies required to run the notebook.
+    ├── roughwork.ipynb         # Rough work notebook.
 
 ## Installation
 
