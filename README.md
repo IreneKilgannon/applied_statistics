@@ -60,21 +60,31 @@ python -m venv venv
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # macOS/Linux
 ```
+
 2. __Install dependencies:__
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. __Open the notebook (problems.ipynb)__ in Visual Studio Code and select the __venv__ kernel.
+3. __Register venv as a Jupyter kernel:__
 
+```bash
+python -m ipykernel install --user --name venv --display-name "Python (venv)"
+```
+
+4. __Open problems.ipynb__ in Visual Studio Code and select the __venv__ kernel.
+
+    Upon first use, you may need to set the interpreter:
    Open command palette → ``Python: Select Interpreter`` →  ``Enter interpreter path``
 
-    Navigate to ``venv`` → ``venv\Scripts\python.exe``
+    Navigate to your ``venv`` directory: 
+    * Windows: ``venv\Scripts\python.exe``
+    * macOS/Linux venv\bin\python
 
-4. __Run the notebook.__
+5. __Run the notebook.__
 
-5. __Deactivate the virtual environment:__
+6. __Deactivate the virtual environment when finished:__
 
 ```bash
 deactivate
