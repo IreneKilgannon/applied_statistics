@@ -81,7 +81,7 @@ python -m ipykernel install --user --name venv --display-name "Python (venv)"
 
     Navigate to your ``venv`` directory: 
     * Windows: ``venv\Scripts\python.exe``
-    * macOS/Linux venv\bin\python
+    * macOS/Linux ``venv\bin\python``
 
 5. __Run the notebook.__
 
